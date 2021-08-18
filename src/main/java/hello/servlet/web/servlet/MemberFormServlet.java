@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name="memberFormServlet", urlPatterns = "/servlet/members/new-form")
+@WebServlet(name="memberFormServlet", urlPatterns = "/servlet/members/new-form.jsp")
 public class MemberFormServlet extends HttpServlet {
 
     //싱글톤이기때문에 new 사용이 안된다. getInstance를 사용한다.
